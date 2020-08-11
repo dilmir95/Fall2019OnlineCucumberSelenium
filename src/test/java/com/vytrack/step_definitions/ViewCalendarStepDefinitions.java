@@ -14,4 +14,6 @@ public class ViewCalendarStepDefinitions {
     public void view_per_page_menu_should_have_following_options(List<String> dataTable) {
         Assert.assertEquals(dataTable,calendarEventsPage.getViewPerPageOptions());
     }
+
+
 }

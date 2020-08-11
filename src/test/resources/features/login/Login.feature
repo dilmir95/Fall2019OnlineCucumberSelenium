@@ -33,7 +33,7 @@ Feature: Login
     Then user name should be "<name>"
     Examples:
       | username        | password    | name             |
-      | user187         | UserUser123 | Jerel Vandervort |
+      | user220         | UserUser123 | Jerel Vandervort |
       | user200         | UserUser123 | Lonzo Leuschke   |
       | storemanager52  | UserUser123 | Roma Medhurst    |
       | storemanager66  | UserUser123 | Carlos Ernser    |

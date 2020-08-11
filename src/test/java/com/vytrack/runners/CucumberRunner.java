@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         dryRun = false,
         strict = false,
-        tags = "@view_calendar_events",
+        tags = "@driver",
         plugin = {"html:target/cucumber-html-report",
                     "json:target/cucumber1.json",
                 "rerun:target/rerun.txt"
